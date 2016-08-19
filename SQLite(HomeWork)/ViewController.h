@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *uoLoadItem;//刷新按钮
 
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *AddItem;//添加按钮
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;//表视图
 @end
 
